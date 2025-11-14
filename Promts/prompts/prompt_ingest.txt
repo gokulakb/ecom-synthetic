@@ -1,0 +1,1 @@
+Please run a Python ingestion script to create a SQLite DB named ecom.db in the workspace and create these tables: customers, products, orders, order_items, shipments with appropriate foreign keys. Then import the CSV files from data/ into those tables. After ingestion, run a simple verification query: SELECT COUNT(*) FROM orders; and return the counts for all tables.
