@@ -1,0 +1,3 @@
+Using the SQLite database ecom.db in the workspace, write and run a SQL query that joins customers, orders, order_items, products and shipments to produce a report:
+- For each order, show order_id, order_date, customer (name + email), order_total, number_of_items, shipped_at, carrier, top_product_name (the product with highest line_total in that order).
+Return the top 20 orders ordered by order_total desc. Show the SQL you ran and the first 20 rows.
